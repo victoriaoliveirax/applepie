@@ -1,3 +1,8 @@
+## [0.3.0] - 2023-02-28
+-programa2.cr
+-programa1 codes.md (renomeado)
+-programa2 codes.md
+
 ## [0.2.0] - 2023-02-24
 
 ### Added
