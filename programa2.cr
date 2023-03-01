@@ -1,16 +1,10 @@
-def main : Int32
-    # Alocação na stack (pacote de biscoitos)
-    stack_var = ["biscoito1", "biscoito2", "biscoito3"]
-    stack_addr = pointerof(stack_var)
-    puts "Endereço de memória do pacote de biscoitos alocado na stack: #{stack_addr}"
+#Define uma struct genérica
+struct Applepie
+end
 
-    # Alocação na heap (fatia de pizza)
-    heap_var = "sabor de pizza"
-    heap_addr = pointerof(heap_var)
-    puts "Endereço de memória da fatia de pizza alocada na heap: #{heap_addr}"
+cherrypie = "Cherrypie" # Alocação estática
+heap  = cherrypie + "2" # Alocação na memória heap
+stack = Applepie.new # Alocação de um objeto na stack
 
-    # Retorna o status de saída
-    return 0
-  end
-
-  exit main
+puts "Endereço de memória alocado na stack: #{pointerof(stack)}"
+puts "Endereço de memória alocada na heap: #{heap.as(Void*)}"
