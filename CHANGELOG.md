@@ -1,3 +1,7 @@
+## [0.4.0] - 2023-03-08
+- regex.rb
+- pluralize.rb
+
 ## [0.3.0] - 2023-02-28
 -programa2.cr
 -programa1 codes.md (renomeado)
