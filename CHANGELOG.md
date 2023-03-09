@@ -1,3 +1,6 @@
+## [0.4.1] - 2023-03-09
+- pluralize.rb (atualizado)
+
 ## [0.4.0] - 2023-03-08
 - regex.rb
 - pluralize.rb
