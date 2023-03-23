@@ -1,3 +1,6 @@
+## [0.5.0] - 2023-03-23
+- palíndromo.rb
+- book_program.rb
 ## [0.4.1] - 2023-03-09
 - pluralize.rb (atualizado)
 
