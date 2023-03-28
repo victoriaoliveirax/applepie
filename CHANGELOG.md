@@ -1,3 +1,6 @@
+## [0.5.1] - 2023-03-28
+- palíndromo.rb (atualizado)
+- book_program.rb (atualizado)
 ## [0.5.0] - 2023-03-23
 - palíndromo.rb
 - book_program.rb
